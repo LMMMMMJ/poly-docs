@@ -1,0 +1,54 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.polymarket.com/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Blockchain Data Resources
+
+> Access Polymarket on-chain activity for data & analytics
+
+Polymarket data that lands on the blockchain, such as trades, balances, positions, and redeems, is available through various on-chain analytics platforms and blockchain data providers. Polymarket also provides its own APIs and WebSockets. See the [API Endpoints reference](/quickstart/reference/endpoints) for more information.
+
+The purpose of this page is to serve as a public good for Polymarket builders, researches, and analysts alike.
+
+***
+
+## Data
+
+### Goldsky
+
+[Goldsky](https://docs.goldsky.com/chains/polymarket) provides real-time streaming pipelines for Polymarket on-chain activity (i.e. trades, balances, positions, etc...) into your own database/data warehouse.
+
+Goldsky also partnered with [ClickHouse](https://clickhouse.com) to create [CryptoHouse](https://crypto.clickhouse.com), where you can query Polymarket on-chain data using SQL.
+
+### Dune
+
+[Dune](https://dune.com) is a blockchain analytics platform that has Polymarket on-chain activity (i.e. trades, balances, positions, etc...). Query Polymarket data using SQL, create custom dashboards, and more.
+
+Here are a few simple queries to get started:
+
+| Query         | Description                                   | Link                                                |
+| ------------- | --------------------------------------------- | --------------------------------------------------- |
+| Volume        | Notional Volume and Maker & Taker USDC Volume | [View Dune Query](https://dune.com/queries/6545441) |
+| TVL           | USDC locked in Polymarket smart contracts     | [View Dune Query](https://dune.com/queries/6588784) |
+| Open Interest | Estimated market open interest, and over time | [View Dune Query](https://dune.com/queries/6555478) |
+
+### Allium
+
+[Allium](https://docs.allium.so/historical-data/predictions) is a blockchain analytics platform that has Polymarket on-chain activity (i.e. trades, balances, positions, etc...). Query Polymarket data using SQL, create custom dashboards, and more.
+
+\--
+
+## Dashboards
+
+Third-party blockchain analytics platforms that aggregate and visualize Polymarket data:
+
+### Community Dashboards
+
+Community-created Dune dashboards of Polymarket on-chain analytics:
+
+| Dashboard                                         | Created By                                      | Link                                                                         |
+| ------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------- |
+| Polymarket Overview                               | [@datadashboards](https://x.com/datadashboards) | [View Dashboard](https://dune.com/datadashboards/polymarket-overview)        |
+| Polymarket Volume, OI, Markets, Addresses and TVL | [@hildobby](https://x.com/hildobby)             | [View Dashboard](https://dune.com/hildobby/polymarket)                       |
+| Polymarket Historical Accuracy                    | [@alexmccullaaa](https://x.com/alexmccullaaa)   | [View Dashboard](https://dune.com/alexmccullough/how-accurate-is-polymarket) |
+| Polymarket Builders Dashboard                     | [@defioasis](https://x.com/defioasis)           | [View Dashboard](https://dune.com/gateresearch/pmbuilders)                   |
